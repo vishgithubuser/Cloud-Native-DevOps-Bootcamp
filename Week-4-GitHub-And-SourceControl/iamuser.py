@@ -2,7 +2,7 @@ import boto3
 import os
 import sys
 
-def new_iam_user(username):
+def new_iam_user(usernamee):
     # Create connection to AWS API
     iam_user = boto3.client('iam')
 
